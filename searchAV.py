@@ -10,6 +10,11 @@ searchText = '30人'
 
 baseUrl = 'https://g52k4d7ncmg1zrzq.com'
 listUrl = '/home/vodlist/7/721-1.html'
+listCount = 82
+listUrl2 = '/home/vodlist/7/723-1.html'
+listCount2 = 82
+listUrl3 = '/home/vodlist/7/724-1.html'
+listCount3 = 55
 
 def search(searchText,baseUrl,listUrl,listCount):
     headers={
@@ -71,5 +76,5 @@ def lxmlParser(pageIndex,page,searchText):
 
 if __name__ == "__main__":
     # search(searchText,baseUrl,listUrl,75)
-    search(searchText,baseUrl,listUrl,82)
+    search(searchText,baseUrl,listUrl3,listCount3)
     

@@ -1,7 +1,7 @@
 # python_script
 收录本人工作中边学边写的python脚本
 
-searchAV.py 查找AV
+searchAV.py 查找A————V
 
 test_buy.py 测试pc端浏览器商城抢购
 

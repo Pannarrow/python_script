@@ -3,7 +3,7 @@ import re
 from lxml import etree
 requests.packages.urllib3.disable_warnings() 
 
-searchText = '30人'
+searchText = '十番'
 
 # baseUrl = 'https://www.ijg30zftssadg9ih.com'
 # listUrl = '/home/vodlist/25/1032-1.html'
@@ -76,5 +76,5 @@ def lxmlParser(pageIndex,page,searchText):
 
 if __name__ == "__main__":
     # search(searchText,baseUrl,listUrl,75)
-    search(searchText,baseUrl,listUrl3,listCount3)
+    search(searchText,baseUrl,listUrl,listCount)
     
